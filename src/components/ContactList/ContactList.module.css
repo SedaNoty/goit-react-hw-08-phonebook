@@ -1,0 +1,11 @@
+.item {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button_del {
+    height: 25px;
+    width: 60px;
+}

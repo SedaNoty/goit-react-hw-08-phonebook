@@ -1,0 +1,31 @@
+.form {
+    margin: auto;
+    width: 320px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+button {
+    padding: 5px 5px;
+    margin-top: 10px;
+    width: 130px;
+    border: 1px solid hsla(0, 0%, 100%, 0.514);
+    background-color: hsla(0, 0%, 100%, 0.514);
+    color: rgb(70, 70, 70);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(67, 144, 189);
+    color: white;
+    box-shadow: 2px 2px 4px gray;
+}
